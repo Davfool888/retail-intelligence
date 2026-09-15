@@ -1,0 +1,28 @@
+# entorno virtual
+.venv/
+
+# credenciales y variables de entorno
+.env
+.env.*
+
+# credenciales de kaggle
+kaggle.json
+
+# datos descargados
+data/raw/*
+data/processed/*
+
+# archivos temporales de python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# jupyter
+.ipynb_checkpoints/
+
+# archivos temporales de windows
+Thumbs.db
+Desktop.ini
+
+# archivos de sistema
+.DS_Store
